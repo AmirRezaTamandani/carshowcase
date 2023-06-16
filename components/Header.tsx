@@ -29,8 +29,8 @@ const Header = () => {
             fill
             className="object-contain"
           />
-          <div className="header__image-overlay" />
         </div>
+        <div className="header__image-overlay" />
       </div>
     </header>
   );
