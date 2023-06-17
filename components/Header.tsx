@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import CustomeButton from "./CostumeButton";
+import CustomeButton from "./CustomButton";
 import Image from "next/image";
 
 const Header = () => {

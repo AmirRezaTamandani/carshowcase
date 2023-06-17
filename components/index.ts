@@ -1,16 +1,18 @@
 import Header from "./Header";
-import CostumeButton from "./CostumeButton";
+import CustomButton from "./CustomButton";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import CostumeFilter from "./CostumeFilter";
+import CustomFilter from "./CustomFilter";
 import SearchBar from "./SearchBar";
 import SearchManufacturer from "./SearchManufacturer";
+import CarCard from "./CarCard";
 export {
   Header,
-  CostumeButton,
+  CustomButton,
   Navbar,
   Footer,
-  CostumeFilter,
+  CustomFilter,
   SearchBar,
   SearchManufacturer,
+  CarCard,
 };

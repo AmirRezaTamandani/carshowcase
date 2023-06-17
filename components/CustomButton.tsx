@@ -1,14 +1,14 @@
 "use client";
 import React from "react";
-import { CostumeButtonProps } from "@/types";
+import { CustomButtonProps } from "@/types";
 import Image from "next/image";
 
-const CostumeButton = ({
+const CustomButton = ({
   title,
   type,
   containerStyles,
   handleClick,
-}: CostumeButtonProps) => {
+}: CustomButtonProps) => {
   return (
     <button
       disabled={false}
@@ -21,4 +21,4 @@ const CostumeButton = ({
   );
 };
 
-export default CostumeButton;
+export default CustomButton;
