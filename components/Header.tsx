@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import CustomeButton from "./CustomButton";
+import CustomButton from "./CustomButton";
 import Image from "next/image";
 
 const Header = () => {
@@ -15,7 +15,7 @@ const Header = () => {
           streamline your car rental exprience with our effortless booking
           progress
         </p>
-        <CustomeButton
+        <CustomButton
           title="Explore Cars"
           containerStyles="bg-primary-blue text-white rounded-full mt-10"
           handleClick={handleScroll}

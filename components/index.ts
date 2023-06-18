@@ -7,6 +7,8 @@ import SearchBar from "./SearchBar";
 import SearchManufacturer from "./SearchManufacturer";
 import CarCard from "./CarCard";
 import CarDetails from "./CarDetails";
+import SearchButton from "./SearchButton";
+import ShowMore from "./ShowMore";
 export {
   Header,
   CustomButton,
@@ -16,4 +18,7 @@ export {
   SearchBar,
   SearchManufacturer,
   CarCard,
+  CarDetails,
+  SearchButton,
+  ShowMore,
 };

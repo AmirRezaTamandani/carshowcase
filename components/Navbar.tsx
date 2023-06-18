@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import CustomeButton from "./CustomButton";
+import CustomButton from "./CustomButton";
 const Navbar = () => {
   return (
     <header className="w-full absolute z-10">
@@ -15,7 +15,7 @@ const Navbar = () => {
             className="object-contain"
           />
         </Link>
-        <CustomeButton
+        <CustomButton
           title={"Sign In"}
           type="button"
           containerStyles="text-primary-blue rounded-full bg-white min-w-[130px] "

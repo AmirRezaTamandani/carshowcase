@@ -13,6 +13,10 @@ export interface searchManufacturerProps {
   manufacturer: string;
   setManufacturer: (manufacturer: string) => void;
 }
+export interface updateSearchParamsProps {
+  manufacturer?: string;
+  model?: string;
+}
 
 export interface CarProps {
   city_mpg: number;
@@ -27,4 +31,26 @@ export interface CarProps {
   model: string;
   transmission: string;
   year: number;
+}
+export interface filterProps {
+  manufacturer: string;
+  year: number;
+  limit: number;
+  model: string;
+  fuel: string;
+}
+export interface HomeProps {
+  searchParams: filterProps;
+}
+export interface OptionProps {
+  title: string;
+  value: string;
+}
+export interface CustomFilterProps {
+  title: string;
+  options: OptionProps[];
+}
+export interface ShowMoreProps {
+  pageNumber: number;
+  isNext: boolean;
 }
