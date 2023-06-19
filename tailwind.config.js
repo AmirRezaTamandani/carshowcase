@@ -8,6 +8,7 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      darkMode: "class",
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },

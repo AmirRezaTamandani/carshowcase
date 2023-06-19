@@ -3,10 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { CarProps } from "@/types";
 import { useState } from "react";
-import {
-  calculateCarRentKM,
-  generateCarImageUrl,
-} from "@/utils";
+import { calculateCarRentKM, generateCarImageUrl } from "@/utils";
 import CustomButton from "./CustomButton";
 import CarDetails from "./CarDetails";
 
@@ -18,12 +15,8 @@ const CarCard = ({ car }: CarCardProps) => {
   const {
     city_mpg,
 
-    combination_mpg,
-    cylinders,
-    displacement,
     drive,
-    fuel_type,
-    highway_mpg,
+
     make,
     model,
     transmission,

@@ -1,5 +1,6 @@
-import { Footer, Navbar } from "@/components";
+import { Footer, Navbar, Provider } from "@/components";
 import "./globals.css";
+import { Suspense } from "react";
 
 export const metadata = {
   title: "car show case ",
@@ -12,12 +13,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="relative">
-        <Navbar />
-        {children}
-        <Footer />
-      </body>
-    </html>
+    <Suspense>
+      <html lang="en">
+        <body className="relative">
+          <Provider>
+            <Navbar />
+            {children}
+            <Footer />
+          </Provider>
+        </body>
+      </html>
+    </Suspense>
   );
 }
