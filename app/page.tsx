@@ -21,14 +21,15 @@ export default async function Home({ searchParams }: HomeProps) {
   const isDataEmpty = !Array.isArray(allCars) || allCars.length < 1 || !allCars;
 
   return (
-    
     <main className="overflow-hidden">
       <Header />
 
       <div className="mt-12 padding-x padding-y max-width" id="discover">
         <div className="home__text-container">
-          <h1 className="text-4xl font-extrabold">Car Catalogue</h1>
-          <p>Explore out cars you might like</p>
+          <h1 className="text-4xl font-extrabold dark:text-white">
+            Car Catalogue
+          </h1>
+          <p className="dark:text-white">Explore out cars you might like</p>
         </div>
 
         <div className="home__filters">

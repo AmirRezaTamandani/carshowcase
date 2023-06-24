@@ -1,10 +1,18 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Switch } from "@headlessui/react";
 import { useTheme } from "next-themes";
 export default function ToggleDarkMode() {
+  const [mounted, setMounted] = useState(false)
   const [enabled, setEnabled] = useState(false);
   const { theme, setTheme } = useTheme();
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    return null
+  }
   if (enabled) {
     setTheme("dark");
   } else {

@@ -21,7 +21,7 @@ const Navbar = () => {
           type="button"
           containerStyles="text-primary-blue rounded-full bg-white min-w-[130px] "
         /> */}
-        <ToggleDarkMode />
+        <ToggleDarkMode  />
       </nav>
     </header>
   );
