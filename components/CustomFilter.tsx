@@ -10,9 +10,7 @@ import { CustomFilterProps } from "@/types";
 
 export default function CustomFilter({ title, options }: CustomFilterProps) {
   const router = useRouter();
-  const [selected, setSelected] = useState(options[0]); // State for storing the selected option
-
-  // update the URL search parameters and navigate to the new URL
+  const [selected, setSelected] = useState(options[0]); 
   const handleUpdateParams = (e: { title: string; value: string }) => {
     const newPathName = updateSearchParams(title, e.value.toLowerCase());
 
@@ -50,7 +48,7 @@ export default function CustomFilter({ title, options }: CustomFilterProps) {
                 <Listbox.Option
                   key={option.title}
                   className={({ active }) =>
-                    `relative cursor-default select-none py-2 px-4 ${
+                    `relative cursor-default select-none py-2 px-4 dark:text-black ${
                       active ? "bg-primary-blue text-white" : "text-gray-900"
                     }`
                   }

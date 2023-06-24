@@ -11,9 +11,8 @@ const Header = () => {
         <div className="header__title">
           Find ,book or rent a car -quickly and easily
         </div>
-        <p className="header__subtitle">
-          streamline your car rental exprience with our effortless booking
-          progress
+        <p className="header__subtitle ">
+          search cars and get some real data on em !
         </p>
         <CustomButton
           title="Explore Cars"
