@@ -72,30 +72,22 @@ export const fuels = [
 
 export const footerLinks = [
   {
-    title: "About",
+    title: "credit",
     links: [
-      { title: "How it works", url: "/" },
-      { title: "Featured", url: "/" },
-      { title: "Partnership", url: "/" },
-      { title: "Bussiness Relation", url: "/" },
-    ],
-  },
-  {
-    title: "Company",
-    links: [
-      { title: "Events", url: "/" },
-      { title: "Blog", url: "/" },
-      { title: "Podcast", url: "/" },
-      { title: "Invite a friend", url: "/" },
+      { title: "Adrian Hajdin", url: "https://github.com/adrianhajdin" },
+      { title: "Sujata Gunale", url: "https://github.com/TidbitsJS" },
     ],
   },
   {
     title: "Socials",
     links: [
-      { title: "Discord", url: "/" },
-      { title: "Instagram", url: "/" },
-      { title: "Twitter", url: "/" },
-      { title: "Facebook", url: "/" },
+      {
+        title: "linkedin",
+        url: "https://www.linkedin.com/in/amir-reza-tamandani-7bb1a4227",
+      },
+      { title: "gitlab", url: "https://gitlab.com/AmirRezaTamanadani" },
+      { title: "github", url: "https://github.com/AmirTaman" },
+      { title: "telegram", url: "https://t.me/azmonios" },
     ],
   },
 ];
