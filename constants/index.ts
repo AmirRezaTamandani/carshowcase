@@ -72,22 +72,22 @@ export const fuels = [
 
 export const footerLinks = [
   {
-    title: "credit",
-    links: [
-      { title: "Adrian Hajdin", url: "https://github.com/adrianhajdin" },
-      { title: "Sujata Gunale", url: "https://github.com/TidbitsJS" },
-    ],
-  },
-  {
     title: "Socials",
     links: [
       {
         title: "linkedin",
-        url: "https://www.linkedin.com/in/amir-reza-tamandani-7bb1a4227",
+        url: "https://www.linkedin.com/in/amir-reza-tamandani",
       },
       { title: "gitlab", url: "https://gitlab.com/AmirRezaTamanadani" },
       { title: "github", url: "https://github.com/AmirTaman" },
       { title: "telegram", url: "https://t.me/azmonios" },
+    ],
+  },
+  {
+    title: "credit",
+    links: [
+      { title: "Adrian Hajdin", url: "https://github.com/adrianhajdin" },
+      { title: "Sujata Gunale", url: "https://github.com/TidbitsJS" },
     ],
   },
 ];
