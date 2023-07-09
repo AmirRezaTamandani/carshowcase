@@ -12,6 +12,20 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
       },
       colors: {
+        dark: {
+          bg: "#040101",
+          text: "#FCF8F8",
+
+          primary: " #5FBFBD",
+          secondary: "#5FBF8D",
+        },
+        light: {
+          bg: "#ebfafa",
+          text: "#041010",
+          primary: "#962729",
+          secondary: "#EDECBA",
+        },
+
         "black-100": "#2B2C35",
         "primary-blue": {
           DEFAULT: "#2B59FF",
@@ -31,4 +45,5 @@ module.exports = {
     },
   },
   plugins: [],
+  darkMode: "class",
 };

@@ -9,6 +9,8 @@ import CarCard from "./CarCard";
 import CarDetails from "./CarDetails";
 import SearchButton from "./SearchButton";
 import ShowMore from "./ShowMore";
+import Provider from "./Provider";
+import ThemeSwitch from "./ThemeSwitcher";
 export {
   Header,
   CustomButton,
@@ -21,4 +23,6 @@ export {
   CarDetails,
   SearchButton,
   ShowMore,
+  Provider,
+  ThemeSwitch,
 };

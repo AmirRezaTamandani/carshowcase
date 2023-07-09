@@ -24,6 +24,7 @@ const Footer = () => {
               <h3 className="font-bold">{link.title}</h3>
               {link.links.map((item) => (
                 <Link
+                scroll={false}
                   key={item.title}
                   href={item.url}
                   className="text-gray-500"
@@ -40,10 +41,14 @@ const Footer = () => {
         <p>@2023 carHub. All Rights Reserved</p>
 
         <div className="footer__copyrights-link">
-          <Link href="/" className="text-gray-500">
+          <Link href="/" className="text-gray-500" 
+                scroll={false}
+                >
             privacy policy
           </Link>
-          <Link href="/" className="text-gray-500">
+          <Link href="/" className="text-gray-500"
+                scroll={false}
+                >
             Terms of Use
           </Link>
         </div>
