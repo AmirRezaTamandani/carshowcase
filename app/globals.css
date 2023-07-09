@@ -47,7 +47,7 @@
 }
 
 .header__subtitle {
-  @apply text-[27px] text-black-100 font-light mt-5;
+  @apply text-[27px] text-black-100 font-light mt-5 dark:text-white;
 }
 
 .header__image-container {
