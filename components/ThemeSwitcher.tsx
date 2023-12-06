@@ -7,7 +7,6 @@ const ThemeSwitch = () => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
   const [enabled, setEnabled] = useState(true);
-  // useEffect only runs on the client, so now we can safely show the UI
   useEffect(() => {
     setMounted(true);
   }, []);
@@ -16,16 +15,16 @@ const ThemeSwitch = () => {
     return null;
   }
   if (enabled) {
-    setTheme("dark");
-  } else {
     setTheme("light");
+  } else {
+    setTheme("dark");
   }
   return (
     <div className="py-16">
       <Switch
         checked={enabled}
         onChange={setEnabled}
-        className={`${enabled ? "bg-light-bg" : "bg-dark-bg"}
+        className={`${enabled ? "bg-dark-bg" : "bg-light-bg"}
           relative inline-flex h-[38px] w-[74px] shrink-0 cursor-pointer 
           rounded-full border-2 border-transparent transition-colors 
           duration-200 ease-in-out focus:outline-none focus-visible:ring-2
